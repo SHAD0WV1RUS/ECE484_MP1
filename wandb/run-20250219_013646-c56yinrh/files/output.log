@@ -1,0 +1,33 @@
+Epoch 1/25:  47%|██████████████████████████████▍                                  | 188/402 [00:52<01:00,  3.56it/s]
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    train()
+  File "train.py", line 133, in train
+    binary_loss, instance_loss = compute_loss(binary_logits, instance_embeddings, binary_labels, instance_labels)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/losses.py", line 69, in compute_loss
+    instance_loss = ds_loss(instance_output, instance_label)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/losses.py", line 23, in forward
+    return self._discriminative_loss(input, target)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/losses.py", line 30, in _discriminative_loss
+    reg_loss=torch.tensor(0.).to(self.device)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    train()
+  File "train.py", line 133, in train
+    binary_loss, instance_loss = compute_loss(binary_logits, instance_embeddings, binary_labels, instance_labels)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/losses.py", line 69, in compute_loss
+    instance_loss = ds_loss(instance_output, instance_label)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/losses.py", line 23, in forward
+    return self._discriminative_loss(input, target)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/losses.py", line 30, in _discriminative_loss
+    reg_loss=torch.tensor(0.).to(self.device)
+KeyboardInterrupt

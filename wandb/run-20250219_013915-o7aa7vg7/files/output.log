@@ -1,0 +1,6 @@
+Epoch 1/25: 100%|████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.61it/s]
+Epoch 1/25: Binary Loss = 0.7445, Instance Loss = 9.1585, Total Loss = 7.0550
+Validating: 100%|██████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.02it/s]
+Validation Results - Epoch 1: Binary Loss = 0.6252, Instance Loss = 8.4774, Total Loss = 9.1026
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_1.pth
+Epoch 2/25:  71%|██████████████████████████████████████████▊                 | 287/402 [01:19<00:31,  3.66it/s]

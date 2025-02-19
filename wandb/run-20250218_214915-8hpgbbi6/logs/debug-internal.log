@@ -1,0 +1,10 @@
+{"time":"2025-02-18T21:49:15.599335031-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/kunal6/mp-release-sp25/src/mp1/wandb/run-20250218_214915-8hpgbbi6/logs/debug-core.log"}
+{"time":"2025-02-18T21:49:15.706201445-06:00","level":"INFO","msg":"created new stream","id":"8hpgbbi6"}
+{"time":"2025-02-18T21:49:15.70630851-06:00","level":"INFO","msg":"stream: started","id":"8hpgbbi6"}
+{"time":"2025-02-18T21:49:15.706367893-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"8hpgbbi6"}
+{"time":"2025-02-18T21:49:15.706454297-06:00","level":"INFO","msg":"sender: started","stream_id":"8hpgbbi6"}
+{"time":"2025-02-18T21:49:15.706528392-06:00","level":"INFO","msg":"handler: started","stream_id":"8hpgbbi6"}
+{"time":"2025-02-18T21:49:15.900050879-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-18T22:33:15.595732797-06:00","level":"INFO","msg":"stream: closing","id":"8hpgbbi6"}
+{"time":"2025-02-18T22:33:15.595768492-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-18T22:33:15.596169322-06:00","level":"INFO","msg":"Stopped system monitor"}

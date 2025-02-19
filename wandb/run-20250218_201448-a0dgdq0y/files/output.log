@@ -1,0 +1,61 @@
+Epoch 1/25:   0%|                                                                                                                                               | 0/51 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 195, in <module>
+    train()
+  File "train.py", line 130, in train
+    binary_logits, instance_embeddings = enet_model(images)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/enet.py", line 417, in forward
+    x = self.regular2_1(x)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/enet.py", line 145, in forward
+    ext = self.ext_conv3(ext)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/container.py", line 219, in forward
+    input = module(input)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 1400, in forward
+    return F.prelu(input, self.weight)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 4.93 GiB of which 77.19 MiB is free. Including non-PyTorch memory, this process has 4.50 GiB memory in use. Of the allocated memory 4.42 GiB is allocated by PyTorch, and 9.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "train.py", line 195, in <module>
+    train()
+  File "train.py", line 130, in train
+    binary_logits, instance_embeddings = enet_model(images)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/enet.py", line 417, in forward
+    x = self.regular2_1(x)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/mp-release-sp25/src/mp1/models/enet.py", line 145, in forward
+    ext = self.ext_conv3(ext)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/container.py", line 219, in forward
+    input = module(input)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 1400, in forward
+    return F.prelu(input, self.weight)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 64.00 MiB. GPU 0 has a total capacity of 4.93 GiB of which 77.19 MiB is free. Including non-PyTorch memory, this process has 4.50 GiB memory in use. Of the allocated memory 4.42 GiB is allocated by PyTorch, and 9.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

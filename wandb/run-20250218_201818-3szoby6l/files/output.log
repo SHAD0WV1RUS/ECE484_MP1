@@ -1,0 +1,13 @@
+Epoch 1/25:   0%|                                                                                                                                                                                   | 0/402 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 195, in <module>
+    train()
+  File "train.py", line 133, in train
+    loss = (1 - LAMBDA)*binary_loss + LAMDBA*instance_loss
+NameError: name 'LAMBDA' is not defined
+Traceback (most recent call last):
+  File "train.py", line 195, in <module>
+    train()
+  File "train.py", line 133, in train
+    loss = (1 - LAMBDA)*binary_loss + LAMDBA*instance_loss
+NameError: name 'LAMBDA' is not defined
