@@ -9,12 +9,16 @@ from models.enet import ENet
 from models.losses import compute_loss
 from utils.visualization import visualize_first_prediction
 from torch.optim import Adam
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 # Configurations
 BATCH_SIZE = 8
-LR = 0.00003
+LR = 0.000036
+# PATIENCE = 2
+# SCHEDULER_THRESHOLD = 0.002
+# SCHEDULER_FACTOR = 0.5
 WD = 0
-EPOCHS = 25
+EPOCHS = 30
 LAMBDA = 0.5
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 DATASET_PATH =  "/home/kunal6/.cache/kagglehub/datasets/manideep1108/tusimple/versions/5/TUSimple"
@@ -90,6 +94,7 @@ def train():
     # TODO: Initialize the Adam optimizer with appropriate learning rate and weight decay.
     ################################################################################
     optimizer = Adam(enet_model.parameters(), lr=LR, weight_decay=WD)
+    # scheduler = ReduceLROnPlateau(optimizer, patience = PATIENCE, threshold = SCHEDULER_THRESHOLD, factor = SCHEDULER_FACTOR)
 
     ################################################################################
 
@@ -176,6 +181,7 @@ def train():
         # Call the `validate` function, passing the model and validation data loader.
         ################################################################################
         val_binary_loss, val_instance_loss, val_total_loss = validate(enet_model, val_loader)
+        # scheduler.step(val_binary_loss)
         ################################################################################
         print(f"Validation Results - Epoch {epoch}: "
               f"Binary Loss = {val_binary_loss:.4f}, "

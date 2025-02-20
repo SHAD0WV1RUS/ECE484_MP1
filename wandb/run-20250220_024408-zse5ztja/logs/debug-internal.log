@@ -1,0 +1,10 @@
+{"time":"2025-02-20T02:44:09.036656306-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/kunal6/mp1/wandb/run-20250220_024408-zse5ztja/logs/debug-core.log"}
+{"time":"2025-02-20T02:44:09.145305055-06:00","level":"INFO","msg":"created new stream","id":"zse5ztja"}
+{"time":"2025-02-20T02:44:09.145381003-06:00","level":"INFO","msg":"stream: started","id":"zse5ztja"}
+{"time":"2025-02-20T02:44:09.145462601-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"zse5ztja"}
+{"time":"2025-02-20T02:44:09.145485373-06:00","level":"INFO","msg":"handler: started","stream_id":"zse5ztja"}
+{"time":"2025-02-20T02:44:09.14554819-06:00","level":"INFO","msg":"sender: started","stream_id":"zse5ztja"}
+{"time":"2025-02-20T02:44:09.309609915-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-20T03:19:37.924578314-06:00","level":"INFO","msg":"stream: closing","id":"zse5ztja"}
+{"time":"2025-02-20T03:19:37.924591482-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-20T03:19:37.925001343-06:00","level":"INFO","msg":"Stopped system monitor"}

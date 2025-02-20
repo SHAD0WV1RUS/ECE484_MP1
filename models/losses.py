@@ -64,7 +64,6 @@ class DiscriminativeLoss(_Loss):
 def compute_loss(binary_output, instance_output, binary_label, instance_label):
     ce_loss = nn.CrossEntropyLoss()
     binary_loss = ce_loss(binary_output, binary_label)
-checkpoints/enet_checkpoint_epoch_13.pth
     ds_loss = DiscriminativeLoss(delta_var=0.5, delta_dist=3, alpha=1.0, beta=1.0, gamma=0.001, device="cuda")
     instance_loss = ds_loss(instance_output, instance_label)
 

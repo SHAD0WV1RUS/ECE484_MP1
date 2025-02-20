@@ -7,7 +7,7 @@ from models.enet import ENet
 import os
 
 # Define dataset and checkpoint paths
-DATASET_PATH = "/opt/data/TUSimple/test_set"
+DATASET_PATH = "/home/kunal6/.cache/kagglehub/datasets/manideep1108/tusimple/versions/5/TUSimple/test_set"
 CHECKPOINT_PATH = "checkpoints/enet_checkpoint_epoch_best.pth"  # Path to the trained model checkpoint
 
 # Function to load the ENet model
@@ -28,7 +28,12 @@ def perspective_transform(image):
     """
     
     ####################### TODO: Your code starts Here #######################
-
+    height, width = image.shape[:2]
+    scaling_factor = np.float32([width, height]) / np.float32([1280, 720])
+    src_pts = np.float32([[242, 720],[1255, 716],[650, 267],[698, 268]]) * scaling_factor
+    dest_pts = np.float32([[200, 720],[1080, 720],[200, 0], [1080, 0]]) * scaling_factor
+    M = cv2.getPerspectiveTransform(src_pts, dest_pts)
+    transformed_image = cv2.warpPerspective(image, M, (width, height))
     ####################### TODO: Your code ends Here #######################
     
     return transformed_image
@@ -45,10 +50,21 @@ def visualize_lanes_row(images, instances_maps, alpha=0.7):
     """
     
     num_images = len(images)
-    fig, axes = plt.subplots(1, num_images, figsize=(15, 5))
+    fig, axes = plt.subplots(2, num_images, figsize=(15, 5))
 
     ####################### TODO: Your code starts Here #######################
-    
+    for i in range(num_images):
+        image = cv2.resize(images[i], (512, 256), interpolation=cv2.INTER_LINEAR)
+        transformed_image = perspective_transform(image)
+        instances_map = perspective_transform(instances_maps[i])
+        axes[0][i].imshow(image)
+        axes[0][i].imshow(instances_maps[i], alpha = alpha)
+        axes[0][i].axis("off")
+        axes[0][i].set_title(f"Image {i + 1}")
+        axes[1][i].imshow(transformed_image)
+        axes[1][i].imshow(instances_map, alpha = alpha)
+        axes[1][i].axis("off")
+        axes[1][i].set_title(f"Image {i + 1}")
     ####################### TODO: Your code ends Here #######################
 
     plt.tight_layout()
