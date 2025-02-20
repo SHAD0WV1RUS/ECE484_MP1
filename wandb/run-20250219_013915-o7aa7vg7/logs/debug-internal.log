@@ -5,3 +5,6 @@
 {"time":"2025-02-19T01:39:15.805191815-06:00","level":"INFO","msg":"sender: started","stream_id":"o7aa7vg7"}
 {"time":"2025-02-19T01:39:15.805212078-06:00","level":"INFO","msg":"handler: started","stream_id":"o7aa7vg7"}
 {"time":"2025-02-19T01:39:15.922869351-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T02:18:55.750044315-06:00","level":"INFO","msg":"stream: closing","id":"o7aa7vg7"}
+{"time":"2025-02-19T02:18:55.750090959-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T02:18:55.750515058-06:00","level":"INFO","msg":"Stopped system monitor"}

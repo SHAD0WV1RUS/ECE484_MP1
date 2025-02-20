@@ -12,10 +12,10 @@ from torch.optim import Adam
 
 # Configurations
 BATCH_SIZE = 8
-LR = 0.00002
-WD = 0.001
+LR = 0.00003
+WD = 0
 EPOCHS = 25
-LAMBDA = 0.75
+LAMBDA = 0.5
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 DATASET_PATH =  "/home/kunal6/.cache/kagglehub/datasets/manideep1108/tusimple/versions/5/TUSimple"
 CHECKPOINT_DIR = "checkpoints"

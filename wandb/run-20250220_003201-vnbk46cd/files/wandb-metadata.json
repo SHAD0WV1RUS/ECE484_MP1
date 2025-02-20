@@ -1,0 +1,42 @@
+{
+  "os":  "Linux-5.4.0-205-generic-x86_64-with-glibc2.29",
+  "python":  "CPython 3.8.10",
+  "startedAt":  "2025-02-20T06:32:01.746207Z",
+  "program":  "train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/SHAD0WV1RUS/ECE484_MP1.git",
+    "commit":  "be4b87267009b9ae12b683fda816fe378198f4b3"
+  },
+  "email":  "jainkunal2005@gmail.com",
+  "root":  "/home/kunal6/mp1",
+  "host":  "eceb-5072-12.ews.illinois.edu",
+  "executable":  "/usr/bin/python",
+  "codePathLocal":  "train.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "Quadro P2200",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "494328586240",
+      "used":  "449073803264"
+    }
+  },
+  "memory":  {
+    "total":  "16635711488"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Quadro P2200",
+      "memoryTotal":  "5368709120",
+      "cudaCores":  1280,
+      "architecture":  "Pascal"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}

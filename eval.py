@@ -11,11 +11,12 @@ from utils.lane_detector import LaneDetector
 import matplotlib.pyplot as plt
 
 # Configuration
-BATCH_SIZE = 10
+BATCH_SIZE = 8
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-DATASET_PATH =  "/opt/data/TUSimple"
+DATASET_PATH =  "/home/kunal6/.cache/kagglehub/datasets/manideep1108/tusimple/versions/5/TUSimple"
 CHECKPOINT_PATH = "checkpoints/enet_checkpoint_epoch_best.pth"  # Path to the trained model checkpoint
 
+np.bool = np.bool_
 
 def evaluate():
     """

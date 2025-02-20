@@ -1,0 +1,10 @@
+{"time":"2025-02-19T22:56:55.810351313-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/kunal6/mp1/wandb/run-20250219_225655-wmigknsp/logs/debug-core.log"}
+{"time":"2025-02-19T22:56:55.916674922-06:00","level":"INFO","msg":"created new stream","id":"wmigknsp"}
+{"time":"2025-02-19T22:56:55.916756332-06:00","level":"INFO","msg":"stream: started","id":"wmigknsp"}
+{"time":"2025-02-19T22:56:55.916823569-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"wmigknsp"}
+{"time":"2025-02-19T22:56:55.916892976-06:00","level":"INFO","msg":"sender: started","stream_id":"wmigknsp"}
+{"time":"2025-02-19T22:56:55.916886015-06:00","level":"INFO","msg":"handler: started","stream_id":"wmigknsp"}
+{"time":"2025-02-19T22:56:56.077275244-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-19T23:42:23.253121904-06:00","level":"INFO","msg":"stream: closing","id":"wmigknsp"}
+{"time":"2025-02-19T23:42:23.253165907-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-19T23:42:23.253611002-06:00","level":"INFO","msg":"Stopped system monitor"}

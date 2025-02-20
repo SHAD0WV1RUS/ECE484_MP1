@@ -1,0 +1,125 @@
+Epoch 1/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.59it/s]
+Epoch 1/25: Binary Loss = 0.4968, Instance Loss = 8.9805, Total Loss = 4.7386
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.24it/s]
+Validation Results - Epoch 1: Binary Loss = 0.3678, Instance Loss = 8.1955, Total Loss = 8.5633
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_1.pth
+Epoch 2/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.62it/s]
+Epoch 2/25: Binary Loss = 0.3065, Instance Loss = 5.3752, Total Loss = 2.8409
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.27it/s]
+Validation Results - Epoch 2: Binary Loss = 0.2467, Instance Loss = 3.8165, Total Loss = 4.0632
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_2.pth
+Epoch 3/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.62it/s]
+Epoch 3/25: Binary Loss = 0.2177, Instance Loss = 2.8032, Total Loss = 1.5105
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.28it/s]
+Validation Results - Epoch 3: Binary Loss = 0.1848, Instance Loss = 2.3289, Total Loss = 2.5137
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_3.pth
+Epoch 4/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.62it/s]
+Epoch 4/25: Binary Loss = 0.1664, Instance Loss = 1.5841, Total Loss = 0.8753
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.28it/s]
+Validation Results - Epoch 4: Binary Loss = 0.1458, Instance Loss = 1.6163, Total Loss = 1.7620
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_4.pth
+Epoch 5/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.63it/s]
+Epoch 5/25: Binary Loss = 0.1325, Instance Loss = 1.0609, Total Loss = 0.5967
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.31it/s]
+Validation Results - Epoch 5: Binary Loss = 0.1228, Instance Loss = 1.3408, Total Loss = 1.4637
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_5.pth
+Epoch 6/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.62it/s]
+Epoch 6/25: Binary Loss = 0.1109, Instance Loss = 0.8166, Total Loss = 0.4637
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.27it/s]
+Validation Results - Epoch 6: Binary Loss = 0.1074, Instance Loss = 1.1666, Total Loss = 1.2740
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_6.pth
+Epoch 7/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.63it/s]
+Epoch 7/25: Binary Loss = 0.0964, Instance Loss = 0.6556, Total Loss = 0.3760
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.27it/s]
+Validation Results - Epoch 7: Binary Loss = 0.0980, Instance Loss = 1.0818, Total Loss = 1.1798
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_7.pth
+Epoch 8/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.62it/s]
+Epoch 8/25: Binary Loss = 0.0863, Instance Loss = 0.5436, Total Loss = 0.3150
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.24it/s]
+Validation Results - Epoch 8: Binary Loss = 0.0917, Instance Loss = 1.0235, Total Loss = 1.1152
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_8.pth
+Epoch 9/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.62it/s]
+Epoch 9/25: Binary Loss = 0.0795, Instance Loss = 0.4683, Total Loss = 0.2739
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.26it/s]
+Validation Results - Epoch 9: Binary Loss = 0.0872, Instance Loss = 0.9811, Total Loss = 1.0684
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_9.pth
+Epoch 10/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.62it/s]
+Epoch 10/25: Binary Loss = 0.0740, Instance Loss = 0.4022, Total Loss = 0.2381
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.32it/s]
+Validation Results - Epoch 10: Binary Loss = 0.0841, Instance Loss = 0.9629, Total Loss = 1.0470
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_10.pth
+Epoch 11/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.62it/s]
+Epoch 11/25: Binary Loss = 0.0700, Instance Loss = 0.3589, Total Loss = 0.2144
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.30it/s]
+Validation Results - Epoch 11: Binary Loss = 0.0822, Instance Loss = 0.9414, Total Loss = 1.0236
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_11.pth
+Epoch 12/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.62it/s]
+Epoch 12/25: Binary Loss = 0.0668, Instance Loss = 0.3152, Total Loss = 0.1910
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.24it/s]
+Validation Results - Epoch 12: Binary Loss = 0.0805, Instance Loss = 0.9240, Total Loss = 1.0044
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_12.pth
+Epoch 13/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.62it/s]
+Epoch 13/25: Binary Loss = 0.0643, Instance Loss = 0.2838, Total Loss = 0.1740
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.34it/s]
+Validation Results - Epoch 13: Binary Loss = 0.0792, Instance Loss = 0.9339, Total Loss = 1.0132
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_13.pth
+Epoch 14/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.61it/s]
+Epoch 14/25: Binary Loss = 0.0621, Instance Loss = 0.2578, Total Loss = 0.1599
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.33it/s]
+Validation Results - Epoch 14: Binary Loss = 0.0790, Instance Loss = 0.9321, Total Loss = 1.0111
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_14.pth
+Epoch 15/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.62it/s]
+Epoch 15/25: Binary Loss = 0.0604, Instance Loss = 0.2336, Total Loss = 0.1470
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.08it/s]
+Validation Results - Epoch 15: Binary Loss = 0.0782, Instance Loss = 0.9236, Total Loss = 1.0018
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_15.pth
+Epoch 16/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.60it/s]
+Epoch 16/25: Binary Loss = 0.0588, Instance Loss = 0.2119, Total Loss = 0.1354
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.24it/s]
+Validation Results - Epoch 16: Binary Loss = 0.0779, Instance Loss = 0.9174, Total Loss = 0.9954
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_16.pth
+Epoch 17/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.59it/s]
+Epoch 17/25: Binary Loss = 0.0576, Instance Loss = 0.1974, Total Loss = 0.1275
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.28it/s]
+Validation Results - Epoch 17: Binary Loss = 0.0775, Instance Loss = 0.9291, Total Loss = 1.0065
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_17.pth
+Epoch 18/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.61it/s]
+Epoch 18/25: Binary Loss = 0.0564, Instance Loss = 0.1864, Total Loss = 0.1214
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.09it/s]
+Validation Results - Epoch 18: Binary Loss = 0.0771, Instance Loss = 0.9094, Total Loss = 0.9865
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_18.pth
+Epoch 19/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.60it/s]
+Epoch 19/25: Binary Loss = 0.0555, Instance Loss = 0.1641, Total Loss = 0.1098
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.26it/s]
+Validation Results - Epoch 19: Binary Loss = 0.0775, Instance Loss = 0.9104, Total Loss = 0.9878
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_19.pth
+Epoch 20/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.60it/s]
+Epoch 20/25: Binary Loss = 0.0547, Instance Loss = 0.1592, Total Loss = 0.1070
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.28it/s]
+Validation Results - Epoch 20: Binary Loss = 0.0771, Instance Loss = 0.9164, Total Loss = 0.9935
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_20.pth
+Epoch 21/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.61it/s]
+Epoch 21/25: Binary Loss = 0.0539, Instance Loss = 0.1475, Total Loss = 0.1007
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.32it/s]
+Validation Results - Epoch 21: Binary Loss = 0.0775, Instance Loss = 0.9095, Total Loss = 0.9871
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_21.pth
+Epoch 22/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.60it/s]
+Epoch 22/25: Binary Loss = 0.0534, Instance Loss = 0.1353, Total Loss = 0.0943
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.26it/s]
+Validation Results - Epoch 22: Binary Loss = 0.0773, Instance Loss = 0.9132, Total Loss = 0.9905
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_22.pth
+Epoch 23/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.60it/s]
+Epoch 23/25: Binary Loss = 0.0527, Instance Loss = 0.1350, Total Loss = 0.0938
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.26it/s]
+Validation Results - Epoch 23: Binary Loss = 0.0780, Instance Loss = 0.8989, Total Loss = 0.9769
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_23.pth
+Epoch 24/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.59it/s]
+Epoch 24/25: Binary Loss = 0.0522, Instance Loss = 0.1284, Total Loss = 0.0903
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.31it/s]
+Validation Results - Epoch 24: Binary Loss = 0.0782, Instance Loss = 0.9253, Total Loss = 1.0035
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_24.pth
+Epoch 25/25: 100%|███████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.62it/s]
+Epoch 25/25: Binary Loss = 0.0517, Instance Loss = 0.1195, Total Loss = 0.0856
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.26it/s]
+Validation Results - Epoch 25: Binary Loss = 0.0778, Instance Loss = 0.9118, Total Loss = 0.9896
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_25.pth

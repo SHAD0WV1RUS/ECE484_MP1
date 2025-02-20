@@ -1,0 +1,10 @@
+{"time":"2025-02-20T00:31:24.41376631-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/home/kunal6/mp1/wandb/run-20250220_003124-jvenbkkg/logs/debug-core.log"}
+{"time":"2025-02-20T00:31:24.521424388-06:00","level":"INFO","msg":"created new stream","id":"jvenbkkg"}
+{"time":"2025-02-20T00:31:24.521501678-06:00","level":"INFO","msg":"stream: started","id":"jvenbkkg"}
+{"time":"2025-02-20T00:31:24.521541071-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"jvenbkkg"}
+{"time":"2025-02-20T00:31:24.521612165-06:00","level":"INFO","msg":"handler: started","stream_id":"jvenbkkg"}
+{"time":"2025-02-20T00:31:24.521781441-06:00","level":"INFO","msg":"sender: started","stream_id":"jvenbkkg"}
+{"time":"2025-02-20T00:31:24.695610064-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-20T01:14:38.283411503-06:00","level":"INFO","msg":"stream: closing","id":"jvenbkkg"}
+{"time":"2025-02-20T01:14:38.283428649-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-20T01:14:38.283873086-06:00","level":"INFO","msg":"Stopped system monitor"}

@@ -1,0 +1,23 @@
+Epoch 1/25: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.60it/s]
+Epoch 1/25: Binary Loss = 0.8700, Instance Loss = 10.0128, Total Loss = 7.7271
+Validating: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.04it/s]
+Validation Results - Epoch 1: Binary Loss = 0.7879, Instance Loss = 9.0833, Total Loss = 9.8711
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_1.pth
+Epoch 2/25: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.63it/s]
+Epoch 2/25: Binary Loss = 0.7238, Instance Loss = 8.8361, Total Loss = 6.8081
+Validating: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.28it/s]
+Validation Results - Epoch 2: Binary Loss = 0.6842, Instance Loss = 8.5993, Total Loss = 9.2835
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_2.pth
+Epoch 3/25:   6%|█████▋                                                                                     | 25/402 [00:07<01:46,  3.53it/s]
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    train()
+  File "train.py", line 127, in train
+    images = images.to(DEVICE)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    train()
+  File "train.py", line 127, in train
+    images = images.to(DEVICE)
+KeyboardInterrupt

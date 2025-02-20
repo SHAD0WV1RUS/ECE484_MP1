@@ -1,0 +1,58 @@
+Epoch 1/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:51<00:00,  3.61it/s]
+Epoch 1/25: Binary Loss = 0.7225, Instance Loss = 9.6120, Total Loss = 5.1672
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.31it/s]
+Validation Results - Epoch 1: Binary Loss = 0.6625, Instance Loss = 9.0249, Total Loss = 9.6875
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_1.pth
+Epoch 2/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.63it/s]
+Epoch 2/25: Binary Loss = 0.5734, Instance Loss = 8.6920, Total Loss = 4.6327
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.31it/s]
+Validation Results - Epoch 2: Binary Loss = 0.5515, Instance Loss = 8.3997, Total Loss = 8.9512
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_2.pth
+Epoch 3/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.62it/s]
+Epoch 3/25: Binary Loss = 0.4825, Instance Loss = 7.0099, Total Loss = 3.7462
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.35it/s]
+Validation Results - Epoch 3: Binary Loss = 0.4588, Instance Loss = 4.9807, Total Loss = 5.4394
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_3.pth
+Epoch 4/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.62it/s]
+Epoch 4/25: Binary Loss = 0.4079, Instance Loss = 4.2259, Total Loss = 2.3169
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.36it/s]
+Validation Results - Epoch 4: Binary Loss = 0.3788, Instance Loss = 3.7819, Total Loss = 4.1607
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_4.pth
+Epoch 5/25: 100%|████████████████████████████████████████████████████████████████████████████████████████| 402/402 [01:50<00:00,  3.62it/s]
+Epoch 5/25: Binary Loss = 0.3428, Instance Loss = 3.2505, Total Loss = 1.7967
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 52/52 [00:06<00:00,  8.29it/s]
+Validation Results - Epoch 5: Binary Loss = 0.3185, Instance Loss = 3.1678, Total Loss = 3.4863
+Checkpoint saved at checkpoints/enet_checkpoint_epoch_5.pth
+Epoch 6/25:  83%|████████████████████████████████████████████████████████████████████████▋               | 332/402 [01:31<00:19,  3.62it/s]
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    train()
+  File "train.py", line 133, in train
+    binary_loss, instance_loss = compute_loss(binary_logits, instance_embeddings, binary_labels, instance_labels)
+  File "/home/kunal6/mp1/models/losses.py", line 69, in compute_loss
+    instance_loss = ds_loss(instance_output, instance_label)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/mp1/models/losses.py", line 23, in forward
+    return self._discriminative_loss(input, target)
+  File "/home/kunal6/mp1/models/losses.py", line 28, in _discriminative_loss
+    dis_loss=torch.tensor(0.).to(self.device)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    train()
+  File "train.py", line 133, in train
+    binary_loss, instance_loss = compute_loss(binary_logits, instance_embeddings, binary_labels, instance_labels)
+  File "/home/kunal6/mp1/models/losses.py", line 69, in compute_loss
+    instance_loss = ds_loss(instance_output, instance_label)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunal6/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunal6/mp1/models/losses.py", line 23, in forward
+    return self._discriminative_loss(input, target)
+  File "/home/kunal6/mp1/models/losses.py", line 28, in _discriminative_loss
+    dis_loss=torch.tensor(0.).to(self.device)
+KeyboardInterrupt
